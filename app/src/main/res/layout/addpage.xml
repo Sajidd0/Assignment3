@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="ADD A RESTAURANT"
+       android:layout_gravity="center"
+       android:textSize="30dp"
+       android:textColor="@color/design_default_color_primary"
+       android:textStyle="bold"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonlocation"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Location"
+            android:inputType="textPersonName" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonPhone"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Phone number"
+            android:inputType="number" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextTextDescription"
+            android:layout_width="258dp"
+            android:layout_height="111dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Description"
+            android:inputType="textPersonName" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter Rating" />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:id="@+id/add_res"
+        />
+
+
+
+</LinearLayout>
